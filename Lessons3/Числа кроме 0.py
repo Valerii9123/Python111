@@ -18,9 +18,9 @@ while True:
         d = c // b
         positive += num % 2 == 0
         negative += num % 2 != 0
-        if num > x == 0:
+        if num > x:
             x = num
-        if num < y == 0:
+        if num < y:
             y = num
 
 print('Количество чисел: ', b)
