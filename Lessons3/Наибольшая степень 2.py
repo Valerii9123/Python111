@@ -6,6 +6,9 @@ while a <= num:
     b += 1
     if a <= num:
         print(b, a, end='    ')
+    else:
+        continue
+print(b, a)
 
 
 
